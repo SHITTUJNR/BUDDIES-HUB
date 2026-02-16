@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUDDIES Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">BUDDIES</p>
+        <h1>Build Across Full Sectors</h1>
+        <p class="subtitle">
+          A launchpad for teams creating practical products in education, health,
+          climate, finance, and community.
+        </p>
+        <div class="hero__actions">
+          <a href="#sectors" class="btn btn--primary">Explore sectors</a>
+          <a href="#roadmap" class="btn btn--ghost">View roadmap</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls container" aria-label="Sector filters">
+        <h2>Choose your focus</h2>
+        <p>Filter sectors to match the product direction you want to build.</p>
+        <div class="filters" id="filterButtons"></div>
+      </section>
+
+      <section id="sectors" class="container">
+        <h2>Full Sectors</h2>
+        <div id="sectorGrid" class="sector-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="roadmap" class="container roadmap">
+        <h2>Build Roadmap</h2>
+        <ol>
+          <li>
+            <strong>Discovery:</strong> Validate a real problem with users from the
+            selected sector.
+          </li>
+          <li>
+            <strong>Prototype:</strong> Build an MVP and track activation metrics.
+          </li>
+          <li>
+            <strong>Scale:</strong> Add partnerships, automation, and regional reach.
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> BUDDIES Hub · Full-Sector Innovation</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

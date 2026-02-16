@@ -1,0 +1,7 @@
+[  
+  {"id": 1, "name": "Technology", "description": "Companies involved in the development and manufacturing of technology products and services."},  
+  {"id": 2, "name": "Healthcare", "description": "Organizations that provide medical services, manufacture medical equipment or drugs, and facilitate healthcare services."},  
+  {"id": 3, "name": "Finance", "description": "Companies involved in the management of money, including banking, investment, and insurance services."},  
+  {"id": 4, "name": "Consumer Goods", "description": "Businesses that manufacture and sell products that are purchased by individuals for personal consumption."},  
+  {"id": 5, "name": "Energy", "description": "Companies involved in the production and distribution of energy, including renewable and non-renewable resources."}  
+]
